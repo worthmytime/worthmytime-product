@@ -30,6 +30,23 @@ decisions/   notatki o decyzjach
 
 Struktura jest luźna i można ją zmieniać, gdy będzie potrzeba.
 
-## Zasady pracy
+## Jak pracujemy
 
-Zmiany idą tak jak w pozostałych repozytoriach: zadanie, osobna gałąź, pull request, scalenie. Szczegóły w `CONTRIBUTING.md` w repozytoriach kodu.
+Każda zmiana przechodzi ten sam cykl: **issue = nowy branch = pull request = merge = zamknięcie taska = usunięcie brancha**.
+
+```mermaid
+flowchart LR
+    A[Issue na tablicy] --> B[Nowy branch<br/>typ/numer-opis]
+    B --> C[Pull request<br/>z Closes #N]
+    C --> D[Przegląd i CI]
+    D --> E[Merge squash do main]
+    E --> F[Issue zamknięte,<br/>task w Done]
+    E --> G[Branch usunięty]
+```
+
+1. Zadanie zaczyna się od issue na [tablicy projektu](https://github.com/users/poewer/projects/6).
+2. Dla issue powstaje osobny branch `<typ>/<numer>-<opis>` (np. `docs/3-model-danych`), bez commitów prosto na `main`.
+3. Zmiany trafiają w pull requeście, którego opis zawiera `Closes #<numer>`.
+4. Po scaleniu (squash) issue zostaje zamknięte, zadanie trafia do Done, a branch jest usuwany.
+
+Ta sama zasada obowiązuje w repozytoriach [backend](https://github.com/poewer/worthmytime-backend) i [frontend](https://github.com/poewer/worthmytime-frontend); szczegóły w ich `CONTRIBUTING.md`.
