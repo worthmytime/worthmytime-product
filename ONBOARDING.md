@@ -16,7 +16,7 @@ Tablica z zadaniami: [WorthMyTime (projekt)](https://github.com/orgs/worthmytime
 
 ## 2. Dostęp (raz, na początku)
 
-0. **Nie masz jeszcze dostępu?** Skontaktuj się z właścicielem projektu: e-mail **poewer1@gmail.com** albo wiadomość na **LinkedIn** (Michał Białek). Dostaniesz zaproszenie do organizacji.
+0. **Nie masz jeszcze dostępu?** Skontaktuj się z właścicielem projektu: e-mail **poewer1@gmail.com** albo wiadomość na [**LinkedIn**](https://www.linkedin.com/in/michal-bialek-a48891267/) (Michał Białek). Dostaniesz zaproszenie do organizacji.
 1. Przyjmij zaproszenie do organizacji **worthmytime** (mail od GitHuba albo [github.com/worthmytime](https://github.com/worthmytime)). Wchodzisz do zespołu **Developers**, który ma uprawnienie zapisu do wszystkich repozytoriów.
 2. Włącz uwierzytelnianie dwuskładnikowe na swoim koncie GitHub (Settings, Password and authentication).
 3. Skonfiguruj Git tak, żeby commity łączyły się z Twoim kontem GitHub (patrz [zasady commitów](#6-zasady-commitów)):
@@ -197,4 +197,4 @@ Projekt powstaje z użyciem asystentów kodowania i to jest część nauki: chod
 
 ## 12. Gdzie pytać
 
-Pytania o zadanie: komentarz pod issue (zostaje w historii). Decyzje produktowe i architektura: komentarz pod issue lub nowy dokument w `decisions/` w tym repozytorium. Problem z dostępem lub środowiskiem: napisz do właściciela (`@poewer`): e-mail **poewer1@gmail.com** albo wiadomość na **LinkedIn** (Michał Białek).
+Pytania o zadanie: komentarz pod issue (zostaje w historii). Decyzje produktowe i architektura: komentarz pod issue lub nowy dokument w `decisions/` w tym repozytorium. Problem z dostępem lub środowiskiem: napisz do właściciela (`@poewer`): e-mail **poewer1@gmail.com** albo wiadomość na [**LinkedIn**](https://www.linkedin.com/in/michal-bialek-a48891267/) (Michał Białek).
