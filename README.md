@@ -2,6 +2,8 @@
 
 Miejsce na dokumentację, diagramy i istotne pliki produktowe projektu WorthMyTime. Kod aplikacji jest w osobnych repozytoriach.
 
+> **Nowa osoba w zespole?** Zacznij od [ONBOARDING.md](ONBOARDING.md): dostęp, uruchomienie lokalne, testowanie, wybór zadania i zasady commitów. Zasady współpracy: [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Repozytoria
 
 | Repozytorium | Zawartość |
