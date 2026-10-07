@@ -50,11 +50,13 @@ Szukamy osób na każdym poziomie: od studentów po doświadczonych programistó
 
 ## Jak dołączyć
 
+**Żeby dołączyć do organizacji, wystarczy skontaktować się z właścicielem projektu:** e-mail **poewer1@gmail.com** albo wiadomość na [**LinkedIn**](https://www.linkedin.com/in/michal-bialek-a48891267/) (Michał Białek). Dostaniesz zaproszenie do zespołu Developers z uprawnieniem zapisu do repozytoriów.
+
 1. Przeczytaj [ONBOARDING.md](ONBOARDING.md) i uruchom projekt lokalnie.
 2. Wybierz zadanie z etykietą [`good first issue`](https://github.com/search?q=org%3Aworthmytime+label%3A%22good+first+issue%22+state%3Aopen&type=issues) albo [`help wanted`](https://github.com/search?q=org%3Aworthmytime+label%3A%22help+wanted%22+state%3Aopen&type=issues) i przypisz je sobie.
 3. Otwórz pull request do `dev`. Dostaniesz przegląd i, po zielonych kontrolach, Twoja zmiana trafi do aplikacji.
 
-Masz pytanie albo pomysł na funkcję? Utwórz issue albo napisz do właściciela projektu (`@poewer`). Prośbę o dostęp do organizacji też kieruj do niego.
+Masz pytanie albo pomysł na funkcję? Utwórz issue albo napisz do właściciela projektu (`@poewer`): e-mail **poewer1@gmail.com** albo wiadomość na [**LinkedIn**](https://www.linkedin.com/in/michal-bialek-a48891267/) (Michał Białek).
 
 ## Jak to wygląda technicznie
 
