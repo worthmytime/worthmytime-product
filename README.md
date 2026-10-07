@@ -10,7 +10,7 @@ Miejsce na dokumentację, diagramy i istotne pliki produktowe projektu WorthMyTi
 | [worthmytime-frontend](https://github.com/worthmytime/worthmytime-frontend) | Aplikacja webowa (Next.js, Tailwind, shadcn/ui) |
 | worthmytime-product (to repo) | Dokumentacja, diagramy, specyfikacje, makiety |
 
-Backlog i status zadań: [tablica projektu](https://github.com/users/poewer/projects/6).
+Backlog i status zadań: [tablica projektu](https://github.com/orgs/worthmytime/projects/1).
 
 ## Co tu trafia
 
@@ -45,7 +45,7 @@ flowchart LR
     E --> H[Wydanie: dev -> stage -> main]
 ```
 
-1. Zadanie zaczyna się od issue na [tablicy projektu](https://github.com/users/poewer/projects/6).
+1. Zadanie zaczyna się od issue na [tablicy projektu](https://github.com/orgs/worthmytime/projects/1).
 2. Dla issue powstaje osobny branch `<typ>/<numer>-<opis>` (np. `docs/3-model-danych`), z `dev`, bez commitów prosto na `dev`, `stage` ani `main`.
 3. Zmiany trafiają w pull requeście, którego opis zawiera `Closes #<numer>`.
 4. Po scaleniu (squash) issue zostaje zamknięte, zadanie trafia do Done, a branch jest usuwany.
