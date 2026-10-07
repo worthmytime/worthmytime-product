@@ -4,7 +4,7 @@ Ten przewodnik prowadzi od pierwszego dnia do pierwszego scalonego pull requesta
 
 ## 1. Czym jest projekt
 
-WorthMyTime zamienia cenę zakupu na godziny pracy użytkownika i sprawdza, czy zakup mieści się w jego budżecie. Szczegóły produktu: [README](README.md) oraz dokumenty w tym repozytorium (`specs/`, `docs/`, `diagrams/`, w miarę jak powstają).
+WorthMyTime to aplikacja finansowa budowana z pomocą sztucznej inteligencji, a zarazem projekt do nauki technologii i pracy w zespole. Zaczęła się od przeliczania ceny zakupu na godziny pracy, a rozwija się w stronę pełnej aplikacji do budżetu, wydatków, zobowiązań i celów. Co działa i dokąd zmierzamy: [README](README.md). Szczegóły produktu: dokumenty w tym repozytorium (`specs/`, `docs/`, `diagrams/`, w miarę jak powstają).
 
 | Repozytorium | Co zawiera | Technologie |
 |---|---|---|
@@ -183,6 +183,17 @@ Zadanie jest skończone, gdy:
 - [ ] wybrane zadanie z etykietą `good first issue`, przypisane do Ciebie
 - [ ] pierwszy PR do `dev` otwarty (nawet jako Draft)
 
-## 11. Gdzie pytać
+## 11. Praca z asystentami AI
+
+Projekt powstaje z użyciem asystentów kodowania i to jest część nauki: chodzi o to, żeby umieć z nimi pracować odpowiedzialnie.
+
+- Możesz korzystać z asystentów AI przy pisaniu kodu, testów i dokumentacji.
+- **Odpowiadasz za każdą linię w swoim PR**, także wygenerowaną. Przeczytaj diff, uruchom testy lokalnie i zrozum, co robi kod, zanim go wyślesz.
+- Weryfikuj założenia i wzory finansowe (zaokrąglenia, procenty, daty), bo to miejsca, w których AI mylą się najłatwiej. Pokrywaj je testami z konkretnymi liczbami.
+- Nie wklejaj do asystentów sekretów, tokenów ani prawdziwych danych użytkowników.
+- Jeśli znaczna część zmiany powstała z pomocą AI, napisz o tym w opisie PR (jedno zdanie, np. jakie narzędzie i do czego). To pomaga w przeglądzie i jest dobrym nawykiem.
+- Wnioski z pracy z AI (co zadziałało, co nie) możesz zapisywać w `decisions/` jako krótkie notatki, z których uczy się cały zespół.
+
+## 12. Gdzie pytać
 
 Pytania o zadanie: komentarz pod issue (zostaje w historii). Decyzje produktowe i architektura: komentarz pod issue lub nowy dokument w `decisions/` w tym repozytorium. Problem z dostępem lub środowiskiem: napisz do właściciela (`@poewer`).
